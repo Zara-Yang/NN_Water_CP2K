@@ -1,0 +1,12 @@
+
+    Code introduction : 
+        scripts in this folder is used to train H2O force model from 
+        CP2K dataset (from Yihao), Include core force and force of 
+        wannier center. 
+
+    ======================================================================
+       Code name                       Discription
+    ---------------------------------------------------------------------
+      Split_data.py        Split Yihao's cp2k dataset to single config
+       Ewald_sum.py        Calculate long range force in H2O system 
+    ======================================================================
