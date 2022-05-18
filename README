@@ -4,9 +4,12 @@
         CP2K dataset (from Yihao), Include core force and force of 
         wannier center. 
 
-    ======================================================================
+    ===============================================================================
        Code name                       Discription
-    ---------------------------------------------------------------------
-      Split_data.py        Split Yihao's cp2k dataset to single config
-       Ewald_sum.py        Calculate long range force in H2O system 
-    ======================================================================
+    -------------------------------------------------------------------------------
+      Split_data.py         Split Yihao's cp2k dataset to single config
+       Get_Ewald.py         Calculate long range force in H2O system 
+    Produce_features.cpp    Calculate BPNN features 
+    Data_pretreatment.py    Calculate features and generate Train & Valid dataset
+    Train_data_ptepate.py   Do nothing yet :>
+    ===============================================================================
